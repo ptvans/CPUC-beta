@@ -1,0 +1,97 @@
+.document-library {
+  padding: 20px;
+}
+
+.documents-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;  /* Limit width for better readability */
+  margin: 0 auto;    /* Center the column */
+}
+
+.document-card {
+  width: 100%;       /* Take full width of container */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: left;  /* Ensure all content is left-aligned */
+}
+
+.document-card h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.document-category {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.document-summary {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 12px 0;
+  text-align: left;
+}
+
+.document-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.view-pdf-btn, .chat-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.view-pdf-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.view-pdf-btn:hover {
+  background-color: #0056b3;
+}
+
+.chat-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.chat-btn:hover {
+  background-color: #218838;
+}
+
+.document-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: #666;
+  margin: 8px 0;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-row span {
+  font-size: 0.8rem;
+} 
